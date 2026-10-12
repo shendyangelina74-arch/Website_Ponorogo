@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tempat Wisata Ponorogo — Ponorogo Hebat</title>
+  <meta name="description" content="Daftar tempat wisata Ponorogo: Telaga Ngebel, Air Terjun Pletuk, Masjid Tegalsari, Monumen Reog, dan alun-alun.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand"><span class="brand-mark"></span>Bumi Reog</a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Menu utama">
+      <a href="index.html">Ponorogo Hebat</a>
+      <a href="about.html">Makanan Khas</a>
+      <a href="projects.html">Tarian Daerah</a>
+      <a href="skills.html">Lagu Daerah</a>
+      <a href="contact.html" class="active">Tempat Wisata</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <span class="big" aria-hidden="true">04</span>
+  <div class="container">
+    <span class="eyebrow reveal">Destinasi</span>
+    <h1 class="reveal d1">Tempat <span class="accent">Wisata</span></h1>
+    <p class="lead reveal d2">Telaga yang tenang, air terjun yang sejuk, masjid bersejarah, dan museum yang merayakan Reog. Pilih destinasimu.</p>
+    <p class="crumb reveal d3"><a href="index.html">Beranda</a> / Tempat Wisata</p>
+  </div>
+</section>
+
+<!-- ============ DAFTAR WISATA + FILTER ============ -->
+<section style="padding-top:20px">
+  <div class="container">
+    <div class="filters reveal">
+      <button class="fbtn on" data-filter="all">Semua</button>
+      <button class="fbtn" data-filter="alam">Alam</button>
+      <button class="fbtn" data-filter="religi">Religi</button>
+      <button class="fbtn" data-filter="budaya">Budaya</button>
+      <button class="fbtn" data-filter="kota">Kota</button>
+    </div>
+
+    <!-- GANTI FOTO: ganti src di setiap <img> dengan foto asli -->
+    <div class="places">
+      <article class="place reveal" data-cat="alam">
+        <img src="https://placehold.co/700x900/12544F/F3EEE3?text=Telaga+Ngebel" alt="Telaga Ngebel">
+        <span class="cat">Alam</span>
+        <div><h3>Telaga Ngebel</h3><p>Danau alami di kaki Gunung Wilis dengan udara sejuk. Lokasi ritual Larung Doa saat Grebeg Suro.</p></div>
+      </article>
+      <article class="place reveal d1" data-cat="alam">
+        <img src="https://placehold.co/700x500/1B7A72/F3EEE3?text=Air+Terjun+Pletuk" alt="Air Terjun Pletuk">
+        <span class="cat">Alam</span>
+        <div><h3>Air Terjun Pletuk</h3><p>Air terjun di tengah rimbun pepohonan, cocok untuk menyegarkan diri.</p></div>
+      </article>
+      <article class="place reveal d2" data-cat="religi budaya">
+        <img src="https://placehold.co/700x500/750E21/F3EEE3?text=Masjid+Tegalsari" alt="Masjid Tegalsari">
+        <span class="cat">Religi</span>
+        <div><h3>Masjid Tegalsari</h3><p>Masjid bersejarah di kawasan Tegalsari yang lekat dengan sejarah pesantren di tanah Jawa.</p></div>
+      </article>
+      <article class="place reveal" data-cat="budaya">
+        <img src="https://placehold.co/700x500/091413/F3EEE3?text=Monumen+Reog" alt="Monumen dan Museum Reog">
+        <span class="cat">Budaya</span>
+        <div><h3>Monumen dan Museum Reog</h3><p>Tempat mengenal sejarah, topeng, dan perlengkapan Reog secara lebih dekat.</p></div>
+      </article>
+      <article class="place reveal d1" data-cat="kota">
+        <img src="https://placehold.co/700x500/12544F/F3EEE3?text=Alun-Alun+Ponorogo" alt="Alun-alun Ponorogo">
+        <span class="cat">Kota</span>
+        <div><h3>Alun-Alun Ponorogo</h3><p>Ruang publik di pusat kota, ramai oleh warga dan jajanan di sore hingga malam.</p></div>
+      </article>
+      <article class="place reveal d2" data-cat="kota">
+        <img src="https://placehold.co/700x900/750E21/F3EEE3?text=Pusat+Oleh-oleh" alt="Pusat oleh-oleh Ponorogo">
+        <span class="cat">Kota</span>
+        <div><h3>Pusat Oleh-oleh</h3><p>Tempat membeli suvenir, kaos Reog, dan makanan khas untuk dibawa pulang.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ITINERARY ============ -->
+<section class="light">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Contoh Rencana</span>
+      <h2 class="reveal d1">Sehari <span class="accent">keliling Ponorogo</span></h2>
+      <p class="reveal d2">Usulan sederhana, silakan sesuaikan dengan waktu dan seleramu.</p>
+    </div>
+    <div class="itin">
+      <div class="reveal"><b>Pagi</b><h3>Sarapan Pecel</h3><p>Mulai hari dengan pecel hangat di warung langganan warga.</p></div>
+      <div class="reveal d1"><b>Siang</b><h3>Museum Reog</h3><p>Kenali sejarah dan perlengkapan Reog sebelum menonton pertunjukan.</p></div>
+      <div class="reveal d2"><b>Sore</b><h3>Telaga Ngebel</h3><p>Nikmati pemandangan telaga dengan udara yang menyejukkan.</p></div>
+      <div class="reveal d3"><b>Malam</b><h3>Sate & Alun-alun</h3><p>Tutup hari dengan sate Ponorogo dan suasana kota.</p></div>
+    </div>
+
+    <!-- GANTI PETA: tempel kode embed Google Maps di sini -->
+    <div class="map-ph reveal">
+      <img src="https://placehold.co/1400x520/12544F/F3EEE3?text=Peta+Ponorogo" alt="Peta Ponorogo">
+      <span>Tempat peta (ganti dengan embed Google Maps)</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <span class="eyebrow reveal">Siap Berangkat?</span>
+    <h2 class="reveal d1">Ponorogo menunggu <span class="accent">kunjunganmu</span></h2>
+    <p class="lead reveal d2">Sambil berwisata, jangan lupa mencicipi kuliner dan menonton Reog.</p>
+    <div class="reveal d3" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+      <a href="about.html" class="btn btn-primary">Lihat Makanan Khas</a>
+      <a href="projects.html" class="btn btn-ghost">Lihat Tarian Reog</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="brand" style="margin-bottom:1rem"><span class="brand-mark"></span>Ponorogo Hebat</a>
+        <p>Website pengenalan budaya Kabupaten Ponorogo, Jawa Timur: makanan, tarian, lagu, dan tempat wisata.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Ponorogo Hebat</a></li>
+          <li><a href="about.html">Makanan Khas</a></li>
+          <li><a href="projects.html">Tarian Daerah</a></li>
+          <li><a href="skills.html">Lagu Daerah</a></li>
+          <li><a href="contact.html">Tempat Wisata</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Catatan</h4>
+        <p>Foto pada website ini masih berupa gambar contoh dan akan diganti dengan dokumentasi asli.</p>
+      </div>
+    </div>
+    <div class="copy"><span>© 2026 Ponorogo Hebat. Dibuat dengan bangga.</span><span>Bumi Reog, Jawa Timur</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
